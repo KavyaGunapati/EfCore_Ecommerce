@@ -20,8 +20,8 @@ namespace ECommerce.Data
                 .HasIndex(p => p.Name)
                 .IsUnique();
 
-            modelBuilder.Entity<Order>()
-    .ToTable(tb => tb.HasCheckConstraint("CK_Order_TotalAmount", "TotalAmount > 0"));
+           // modelBuilder.Entity<Order>()
+    //.ToTable(tb => tb.HasCheckConstraint("CK_Order_TotalAmount", "TotalAmount > 0"));
 
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Customer)
@@ -39,6 +39,5 @@ namespace ECommerce.Data
                 .HasForeignKey(oi => oi.ProductId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
-
     }
 }

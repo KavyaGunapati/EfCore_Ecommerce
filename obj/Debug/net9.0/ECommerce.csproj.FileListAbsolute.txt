@@ -144,3 +144,4 @@ C:\Users\GunapatiKavya\Desktop\DotNet\EfCore\ECommerce\obj\Debug\net9.0\refint\E
 C:\Users\GunapatiKavya\Desktop\DotNet\EfCore\ECommerce\obj\Debug\net9.0\ECommerce.pdb
 C:\Users\GunapatiKavya\Desktop\DotNet\EfCore\ECommerce\obj\Debug\net9.0\ECommerce.genruntimeconfig.cache
 C:\Users\GunapatiKavya\Desktop\DotNet\EfCore\ECommerce\obj\Debug\net9.0\ref\ECommerce.dll
+C:\Users\GunapatiKavya\Desktop\DotNet\EfCore\ECommerce\obj\Debug\net9.0\ECommerce.sourcelink.json
